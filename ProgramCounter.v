@@ -1,4 +1,4 @@
-module TPOC(
+module ProgramCounter(
     input clk,
     input reset,
     input [31:0] nextPC,
