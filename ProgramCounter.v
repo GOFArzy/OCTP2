@@ -179,7 +179,7 @@ module DataMemory(
     end
 endmodule
 
-module RISCV_Simplified(
+module RISCV_Simplified( //datapath conexão 
     input clk,
     input reset
 );
