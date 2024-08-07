@@ -85,7 +85,7 @@ module ControlUnit(
     output reg branch,
     output reg jump
 );
-    always @(*) begin
+    always @(*) begin //lh sh add or andi sll bne
         // Definir valores padrão
         aluControl = 4'b0000;
         regWrite = 0;
