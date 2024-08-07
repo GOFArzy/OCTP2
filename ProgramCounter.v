@@ -1,4 +1,4 @@
-module ProgramCounter(
+module ProgramCounter(   //finish, colocar os outros blocos binário, separar os modulos.
     input clk,
     input reset,
     input [31:0] nextPC,
