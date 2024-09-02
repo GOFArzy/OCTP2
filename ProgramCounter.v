@@ -28,8 +28,6 @@ module InstructionMemory(
         memory[5] = 32'b00000000000100010000010000010011; // addi x8, x2, 1
         memory[6] = 32'b00000000001000100000010010110011; // add x9, x4, x2
         memory[7] = 32'b00000000010100010100010100110011; // sub x10, x2, x5
-
-        // Continuar adicionando instruções conforme a necessidade do grupo 29
     end
 
     always @(*) begin
